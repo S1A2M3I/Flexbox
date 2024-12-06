@@ -1,25 +1,59 @@
+#container1{
+    width: 100%;
+    height: 50rem;
+    background-image: url("https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5ldGZsaXh8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
 h1#h1{
     text-align: center;
     margin-top: 10rem;
+    font-size: 3rem;
 
 }
-div#container2{
+h1#h2{
+    text-align: center;
+
+}
+h2#h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+button#b1{
+    position: absolute;
+    width: 10rem;
+}
+div#box1{
     width: 100%;
     height: 70px;
     display: flex;
     flex-direction: row;
     margin-left: 50px;
+    padding-top: 10px;
 }
 img{
     width: 9.25rem;
     height: 2.5rem;
     color: rgb(229, 9, 20);;
 }
-div#box1{
+div#box2{
+    width: 10rem;
     height: 2rem;
     padding-top: 10px;
     display: flex;
     flex-direction: row;
     margin-left: 70vw;
     gap: 10px;
+}
+div#box3{
+    width: 40rem;
+    height: 3rem;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40vw;
+    gap: 10px;
+
 }
