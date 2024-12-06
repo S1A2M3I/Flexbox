@@ -32,6 +32,7 @@ div#box1{
     flex-direction: row;
     margin-left: 50px;
     padding-top: 10px;
+    background-color: black;
 }
 img{
     width: 9.25rem;
@@ -55,5 +56,5 @@ div#box3{
     flex-direction: row;
     margin-left: 40vw;
     gap: 10px;
-
+    color: black;
 }
